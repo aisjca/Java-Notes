@@ -2,6 +2,18 @@
 typora-root-url: ../docs
 ---
 
+<!--TOC-->
+
+[java的跨平台性](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#java%E7%9A%84%E8%B7%A8%E5%B9%B3%E5%8F%B0%E6%80%A7)
+
+[反射](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#%E5%8F%8D%E5%B0%84)
+
+[JVM结构图](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#jvm%E7%BB%93%E6%9E%84%E5%9B%BE)
+
+[参数类型](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B)
+
+<!--/TOC-->
+
 # Java的跨平台性
 
 ##### 相关指令
