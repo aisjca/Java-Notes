@@ -1,7 +1,3 @@
----
-typora-root-url: ../docs
----
-
 <!--TOC-->
 
 # 目录
