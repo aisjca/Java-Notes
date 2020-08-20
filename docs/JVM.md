@@ -4,13 +4,25 @@ typora-root-url: ../docs
 
 <!--TOC-->
 
-[java的跨平台性](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#java%E7%9A%84%E8%B7%A8%E5%B9%B3%E5%8F%B0%E6%80%A7)
+# 目标
 
-[反射](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#%E5%8F%8D%E5%B0%84)
+* [java的跨平台性](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#java%E7%9A%84%E8%B7%A8%E5%B9%B3%E5%8F%B0%E6%80%A7)
 
-[JVM结构图](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#jvm%E7%BB%93%E6%9E%84%E5%9B%BE)
+* [反射](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#%E5%8F%8D%E5%B0%84)
 
-[参数类型](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B)
+* [JVM结构图](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#jvm%E7%BB%93%E6%9E%84%E5%9B%BE)
+
+* [参数类型](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#%E5%8F%82%E6%95%B0%E7%B1%BB%E5%9E%8B)
+* [类加载器](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#类加载器)
+* [Native方法](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#Native方法)
+* [程序计数器](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#程序计数器)
+* [PC寄存器](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#PC寄存器)
+* [方法区](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#方法区)
+* [堆和栈的区别](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#堆和栈的区别)
+* [JMM](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#JMM)
+* [垃圾回收算法](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#垃圾回收算法)
+* [谈谈你对GCRoots的理解](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#谈谈你对GCRoots的理解)
+* [引用](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md#引用)
 
 <!--/TOC-->
 
