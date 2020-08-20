@@ -1,3 +1,7 @@
+---
+typora-root-url: ../图片
+---
+
 # Java的跨平台性
 
 ##### 相关指令
@@ -18,7 +22,7 @@ java xxx 便可以编译这个文件得出结果
 
 3 java中基本数据类型的值域和行为都是由其自己定义的，而C/C++中，基本数据类型是由它的占位宽度决定的，占位宽度则是由所在平台决定的。例 在Java中，int占4个字节，但是在C++中却不是固定的了。在16位计算机上，int类型的长度可能为两字节；在32位计算机上，可能为4字节
 
-![]([https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/JVM%E5%9B%BE/JVM%E7%BB%93%E6%9E%84.jpg](https://github.com/aisjca/Java-Notes/blob/master/图片/JVM图/JVM结构.jpg))
+![](/JVM图/JVM结构.jpg)
 
 # 反射
 
