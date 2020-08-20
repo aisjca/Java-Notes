@@ -22,7 +22,7 @@ java xxx 便可以编译这个文件得出结果
 
 3 java中基本数据类型的值域和行为都是由其自己定义的，而C/C++中，基本数据类型是由它的占位宽度决定的，占位宽度则是由所在平台决定的。例 在Java中，int占4个字节，但是在C++中却不是固定的了。在16位计算机上，int类型的长度可能为两字节；在32位计算机上，可能为4字节
 
-![](/../图片/JVM图/跨平台.png)
+![跨平台.png](https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/JVM%E5%9B%BE/%E8%B7%A8%E5%B9%B3%E5%8F%B0.png?raw=true)
 
 # 反射
 
@@ -82,7 +82,7 @@ public class Robot {
 
 # JVM结构图
 
-![](/../图片/JVM图/JVM结构.jpg)
+![JVM结构.jpg](https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/JVM%E5%9B%BE/JVM%E7%BB%93%E6%9E%84.jpg?raw=true)
 
 线程私有： 程序计算器，虚拟机栈，本地方法栈
 
@@ -132,7 +132,7 @@ Xmixed 混合模式
 
 在run-> Edit Configurations-> VM options 设置该参数 
 
-![](/../图片/JVM图/调参.png)
+![调参.png](https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/JVM%E5%9B%BE/%E8%B0%83%E5%8F%82.png?raw=true)
 
 -Xms  初始堆的大小，默认物理内存1/64 等价于 -XX:InitialHeapSize
 
@@ -170,7 +170,7 @@ Xmixed 混合模式
 
 ##### 双亲委派机制
 
-![](/../图片/JVM图/双亲委派机制.jpeg)
+![双亲委派机制.jpeg](https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/JVM%E5%9B%BE/%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6.jpeg?raw=true)
 
 当一个类收到类加载请求后，它首先不会自己尝试加载这个类，而是把这个请求交给父类，每一层加载类都是这样，会一直从自定义类加载器往上找，只有当父类加载器反馈自己无法完成的时候，子类加载器才会去加载。
 
@@ -258,7 +258,7 @@ Class.forName加载类时将类进了初始化(如静态代码块那些也会运
 
 ##### 堆结构图
 
-![](/../图片/JVM图/堆结构.png)
+![堆结构.png](https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/JVM%E5%9B%BE/%E5%A0%86%E7%BB%93%E6%9E%84.png?raw=true)
 
 新生代占总的1/3 ,老年代2/3;
 
@@ -340,7 +340,7 @@ JMM关于同步的规定
 
 ##### gc收集日志信息解释图
 
-![](/../图片/JVM图/gc.jpg)
+![gc.jpg](https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/JVM%E5%9B%BE/gc.jpg?raw=true)
 
 ##### gc是什么(分代收集算法)
 
