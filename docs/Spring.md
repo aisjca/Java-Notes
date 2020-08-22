@@ -10,7 +10,7 @@
 
 [BeanFactory 和 FactoryBean的区别](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#beanfactory-%E5%92%8C-factorybean%E7%9A%84%E5%8C%BA%E5%88%AB)
 
-[Spring Bean 的生命周期](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring Bean 的生命周期)
+[Spring Bean 的生命周期](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#spring-bean-%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F)
 
 [Spring的IOC理解](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring的IOC理解)
 
