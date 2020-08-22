@@ -4,11 +4,11 @@
 
 [Spring框架的优势](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring框架的优势)
 
-[IOC和DI是什么？](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#IOC和DI是什么？)
+[IOC和DI是什么？](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#ioc%E5%92%8Cdi%E6%98%AF%E4%BB%80%E4%B9%88)
 
-[Spring IOC容器的初始化过程](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring IOC容器的初始化过程)
+[Spring IOC容器的初始化过程](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#spring-ioc%E5%AE%B9%E5%99%A8%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E8%BF%87%E7%A8%8B)
 
-[BeanFactory 和 FactoryBean的区别](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#BeanFactory 和 FactoryBean的区别)
+[BeanFactory 和 FactoryBean的区别](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#beanfactory-%E5%92%8C-factorybean%E7%9A%84%E5%8C%BA%E5%88%AB)
 
 [Spring Bean 的生命周期](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring Bean 的生命周期)
 
@@ -16,9 +16,9 @@
 
 [Spring的AOP理解](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring的AOP理解)
 
-[Spring 中用到了那些设计模式](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring 中用到了那些设计模式)
+[Spring 中用到了那些设计模式](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#spring-%E4%B8%AD%E7%94%A8%E5%88%B0%E4%BA%86%E9%82%A3%E4%BA%9B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 
-[Spring如何解决循环依赖](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring如何解决循环依赖)
+[Spring如何解决循环依赖](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#spring%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E5%BE%AA%E7%8E%AF%E4%BE%9D%E8%B5%96)
 
 [Bean的作用域](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Bean的作用域)
 
@@ -39,6 +39,8 @@
 ​		Spring是一个开源框架，Spring是一个轻量级的Java 开发框架。它是为了解决企业应用开发的复杂性而创建的。框架的主要优势之一就是其分层架构，分层架构允许使用者选择使用哪一个组件，同时为 J2EE 应用程序开发提供集成的框架。Spring使用基本的JavaBean来完成以前只可能由EJB完成的事情。然而，Spring的用途不仅限于服务器端的开发。从简单性、可测试性和松耦合的角度而言，任何Java应用都可以从Spring中受益。Spring的核心是控制反转（IoC）和面向切面（AOP）。简单来说，Spring是一个分层的full-stack(一站式) 轻量级开源框架。
 
 主要包含的模块：
+
+![Spring结构图.png](https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/Spring/Spring%E7%BB%93%E6%9E%84%E5%9B%BE.png?raw=true)
 
 #### IOC
 
@@ -146,7 +148,7 @@
 
 这个是BeanFactory中Bean生命周期，**带*号的代表是接口**。
 
-![Bean生命周期](/Users/jiangcheng/Java-Notes/图片/Spring/Bean生命周期.png)
+![Bean生命周期.png](https://github.com/aisjca/Java-Notes/blob/master/%E5%9B%BE%E7%89%87/Spring/Bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png?raw=true)
 
 总结：
 
