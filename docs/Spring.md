@@ -22,8 +22,6 @@
 
 [Bean的作用域](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Bean的作用域)
 
-[Spring框架中有哪些不同类型的事件](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring框架中有哪些不同类型的事件)
-
 [Spring框架中的单例Beans是线程安全的吗](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring框架中的单例Beans是线程安全的吗)
 
 [Spring如何处理线程并发问题](https://github.com/aisjca/Java-Notes/blob/master/docs/Spring.md#Spring如何处理线程并发问题)
@@ -266,16 +264,6 @@ cglib java动态代理通过字节码来实现
 2. prototype：为每一个bean请求提供一个实例。
 3. request：为每一个网络请求创建一个实例，在请求完成以后，bean会失效并被垃圾回收器回收。
 4. session：与request范围类似，确保每个session中有一个bean的实例，在session过期后，bean会随之失效。
-
-# Spring框架中有哪些不同类型的事件
-
-1.  上下文更新事件（ContextRefreshedEvent）：在调用ConfigurableApplicationContext 接口中的refresh()方法时被触发。
-2. 上下文开始事件（ContextStartedEvent）：当容器调用ConfigurableApplicationContext的Start()方法开始/重新开始容器时触发该事件。
-3. 上下文停止事件（ContextStoppedEvent）：当容器调用ConfigurableApplicationContext的Stop()方法停止容器时触发该事件。
-4. 上下文关闭事件（ContextClosedEvent）：当ApplicationContext被关闭时触发该事件。容器被关闭时，其管理的所有单例Bean都被销毁。
-5. 请求处理事件（RequestHandledEvent）：在Web应用中，当一个http请求（request）结束触发该事件。
-
-
 
 # Spring框架中的单例Beans是线程安全的吗
 
