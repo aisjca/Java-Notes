@@ -132,7 +132,7 @@
 
 ### 两者相同点：
 
-1. Spring提供了两种不同的IOC 容器，一个是BeanFactory，另外一个是ApplicationContext，它们都是Java  interface，ApplicationContext继承于BeanFactory(ApplicationContext继承ListableBeanFactory。
+1. Spring提供了两种不同的IOC 容器，一个是BeanFactory，另外一个是ApplicationContext，它们都是接口，ApplicationContext继承于BeanFactory，而ApplicationContext继承于ListableBeanFactory。
 2. 它们都可以用来配置XML属性，也支持属性的自动注入。
 3. 而ListableBeanFactory继承BeanFactory)，BeanFactory 和 ApplicationContext 都提供了一种方式，使用getBean("bean name")获取bean。
 
@@ -209,7 +209,7 @@ OOP面向对象，允许开发者定义纵向的关系，但并适用于定义�
 
 AOP，一般称为面向切面，作为面向对象的一种补充，用于将那些与业务无关，但却对多个对象产生影响的公共行为和逻辑，抽取并封装为一个可重用的模块，这个模块被命名为“切面”（Aspect），减少系统中的重复代码，降低了模块间的耦合度，同时提高了系统的可维护性。可用于权限认证、日志、事务处理。
 
-AOP实现的关键在于 代理模式，AOP代理主要分为静态代理和动态代理。静态代理的代表为AspectJ；动态代理则以Spring AOP为代表。
+AOP实现的关键在于 代理模式，AOP代理主要分为静态代理和动态代理。静态代理有AspectJ；动态代理则有JDK动态代理和CGLIB动态代理。
 
 （1）AspectJ是静态代理的增强，所谓静态代理，就是AOP框架会在编译阶段生成AOP代理类，因此也称为编译时增强，他会在编译阶段将AspectJ(切面)织入到Java字节码中，运行的时候就是增强之后的AOP对象。
 
