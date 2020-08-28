@@ -7,5 +7,5 @@
 
 [Jvm](https://github.com/aisjca/Java-Notes/blob/master/docs/JVM.md)
 
-[Leetcode Top100](https://github.com/aisjca/Java-Notes/blob/master/docs/Leetcode Top100.md)
+[Leetcode Top100](https://github.com/aisjca/Java-Notes/blob/master/docs/Leetcode%20Top100.md)
 
