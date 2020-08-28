@@ -9,4 +9,4 @@
 
 [Leetcode Top100](https://github.com/aisjca/Java-Notes/blob/master/docs/Leetcode%20Top100.md)
 
-[设计模式]([https://github.com/aisjca/Java-Notes/blob/master/docs/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md](https://github.com/aisjca/Java-Notes/blob/master/docs/设计模式.md))
+[设计模式](https://github.com/aisjca/Java-Notes/blob/master/docs/设计模式.md)
