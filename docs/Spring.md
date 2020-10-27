@@ -256,7 +256,8 @@ cglib java动态代理通过字节码来实现
 
 # Spring如何解决循环依赖
 
-
+- Spring是通过递归的方式获取目标bean及其所依赖的bean的；
+- Spring实例化一个bean的时候，是分两步进行的，首先实例化目标bean，然后为其注入属性。
 
 # Bean的作用域
 
